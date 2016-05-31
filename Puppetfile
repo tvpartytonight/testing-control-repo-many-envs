@@ -9,15 +9,15 @@ forge "http://forge.puppetlabs.com"
 
 
 # Additional modules to complement and complete a PE installation
-mod 'hunner/hiera',                     git: 'https://github.com/voxpupuli/puppet-hiera',                tag: '2.0.1'
-mod 'puppetlabs/puppetserver_gem',      git: 'https://github.com/puppetlabs/puppetlabs-puppetserver_gem' tag: '0.2.0'
-mod 'puppetlabs/inifile',               git: 'https://github.com/puppetlabs/puppetlabs-inifile',         tag: '1.2.0'
-mod 'puppetlabs/concat',                git: 'https://github.com/puppetlabs/puppetlabs-concat',          tag: '2.1.0'
-mod 'puppetlabs/hocon',                 git: 'https://github.com/puppetlabs/puppetlabs-hocon',           tag: '0.9.4'
-mod 'puppetlabs/stdlib',                git: 'https://github.com/puppetlabs/puppetlabs-stdlib',          tag: '4.11.0'
-mod 'puppetlabs/vcsrepo',               git: 'https://github.com/puppetlabs/puppetlabs-vcsrepo',         tag: '1.3.2'
-mod 'puppet/archive',                   git: 'https://github.com/puppet-community/puppet-archive',       tag: '0.5.1'
-mod 'npwalker/pe_code_manager_webhook', git: 'https://github.com/npwalker/pe_code_manager_webhook',      tag: '1.0.7'
+mod 'hunner/hiera',                     git: 'https://github.com/voxpupuli/puppet-hiera',                 tag: '2.0.1'
+mod 'puppetlabs/puppetserver_gem',      git: 'https://github.com/puppetlabs/puppetlabs-puppetserver_gem', tag: '0.2.0'
+mod 'puppetlabs/inifile',               git: 'https://github.com/puppetlabs/puppetlabs-inifile',          tag: '1.2.0'
+mod 'puppetlabs/concat',                git: 'https://github.com/puppetlabs/puppetlabs-concat',           tag: '2.1.0'
+mod 'puppetlabs/hocon',                 git: 'https://github.com/puppetlabs/puppetlabs-hocon',            tag: '0.9.4'
+mod 'puppetlabs/stdlib',                git: 'https://github.com/puppetlabs/puppetlabs-stdlib',           tag: '4.11.0'
+mod 'puppetlabs/vcsrepo',               git: 'https://github.com/puppetlabs/puppetlabs-vcsrepo',          tag: '1.3.2'
+mod 'puppet/archive',                   git: 'https://github.com/puppet-community/puppet-archive',        tag: '0.5.1'
+mod 'npwalker/pe_code_manager_webhook', git: 'https://github.com/npwalker/pe_code_manager_webhook',       tag: '1.0.7'
 
 
 # Basic linux host management
