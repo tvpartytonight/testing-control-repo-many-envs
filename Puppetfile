@@ -72,12 +72,12 @@ mod 'chocolatey/chocolatey',     git: 'https://github.com/chocolatey/puppet-choc
 mod 'puppetlabs/powershell',     git: 'https://github.com/puppetlabs/puppetlabs-powershell',    tag: '2.0.1'
 mod 'puppetlabs/registry',       git: 'https://github.com/puppetlabs/puppetlabs-registry',      tag: '1.1.3'
 mod 'puppetlabs/wsus_client',    git: 'https://github.com/puppetlabs/puppetlabs-wsus_client',   tag: '1.0.2'
-mod 'badgerious/windows_env',    git: 'https://github.com/badgerious/puppet-windows-env',       tag: 'v3.2.2'
+mod 'badgerious/windows_env',    git: 'https://github.com/badgerious/puppet-windows-env',       tag: 'v2.2.2'
 mod 'puppet/windows_firewall',   git: 'https://github.com/voxpupuli/puppet-windows_firewall',   tag: 'v1.0.3'
 mod 'puppet/windows_autoupdate', git: 'https://github.com/voxpupuli/puppet-windows_autoupdate', tag: 'v1.1.0'
-mod 'puppet/dotnet',             git: 'https://github.com/voxpupuli/puppet-dotnet',      tag: 'v1.0.2'
-mod 'puppet/windowsfeature',     git: 'https://github.com/voxpupuli/puppet-windowsfeature',     tag: '1.1.0'
-mod 'puppet/windows_eventlog',   git: 'https://github.com/voxpupuli/puppet-windows_eventlog',   tag: '1.1.1'
+mod 'puppet/dotnet',             git: 'https://github.com/voxpupuli/puppet-dotnet',             tag: 'v1.0.2'
+mod 'puppet/windowsfeature',     git: 'https://github.com/voxpupuli/puppet-windowsfeature',     tag: 'v1.1.0'
+mod 'puppet/windows_eventlog',   git: 'https://github.com/voxpupuli/puppet-windows_eventlog',   tag: 'v1.1.1'
 
 
 # Advanced Windows host management
