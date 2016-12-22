@@ -46,7 +46,7 @@ mod 'saz/memcached',               git: 'https://github.com/saz/puppet-memcached
 mod 'thais/squid3',          git: 'https://github.com/thias/puppet-squid3',              tag: '1.0.0'
 mod 'puppetlabs/haproxy',    git: 'https://github.com/puppetlabs/puppetlabs-haproxy',    tag: '1.4.0'
 mod 'puppetlabs/apache',     git: 'https://github.com/puppetlabs/puppetlabs-apache',     tag: '1.10.0'
-mod 'jfryman/nginx',         git: 'http://github.com/jfryman/puppet-nginx',              tag: 'v0.3.0'
+mod 'jfryman/nginx',         git: 'https://github.com/jfryman/puppet-nginx',              tag: 'v0.3.0'
 mod 'puppetlabs/tomcat',     git: 'https://github.com/puppetlabs/puppetlabs-tomcat',     tag: '1.5.0'
 
 mod 'rtyler/jenkins',        git: 'https://github.com/jenkinsci/puppet-jenkins',         tag: 'v1.6.1'
