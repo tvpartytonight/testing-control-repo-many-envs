@@ -86,3 +86,4 @@ mod 'puppet/graphite_powershell',   git: 'https://github.com/voxpupuli/puppet-gr
 
 # And while we're at it, lets do this all in the cloud
 mod 'puppetlabs/aws', git: 'https://github.com/puppetlabs/puppetlabs-aws', tag: '1.4.0'
+mod 'puppetlabs-dsc', '1.6.0'
