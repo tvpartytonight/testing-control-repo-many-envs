@@ -5,6 +5,11 @@ mod 'puppetlabs-puppet_metrics_collector', '5.0.1'
 mod 'puppet-grafana', '4.5.0'
 mod 'puppet-archive', '3.1.0'
 mod 'puppetlabs-puppet_metrics_dashboard', '1.0.1'
+mod 'puppetlabs-reboot', '2.0.0'
+mod 'puppetlabs-powershell', '2.1.5'
+mod 'puppetlabs-translate', '1.1.0'
+mod 'puppetlabs-apt', '6.0.0'
+mod 'puppetlabs-docker', '2.0.0'
 
 # Modules from the Puppet Forge
 # Versions should be updated to be the latest at the time you start
