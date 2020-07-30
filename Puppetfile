@@ -65,6 +65,8 @@ mod 'puppetlabs/java_ks',    git: 'https://github.com/puppetlabs/puppetlabs-java
 mod 'puppetlabs/acl',            git: 'https://github.com/puppetlabs/puppetlabs-acl',           tag: '1.1.2'
 mod 'puppetlabs/reboot',         git: 'https://github.com/puppetlabs/puppetlabs-reboot',        tag: '1.2.1'
 mod 'chocolatey/chocolatey',     git: 'https://github.com/chocolatey/puppet-chocolatey',        tag: '1.2.3'
+# Very chonky in terms of file count. Cloning from git, because you get twice the chonk that way.
+mod 'puppetlabs/dsc',            git: 'https://github.com/puppetlabs/puppetlabs-dsc',           tag: 'v1.9.3'
 mod 'puppetlabs/powershell',     git: 'https://github.com/puppetlabs/puppetlabs-powershell',    tag: '2.0.1'
 mod 'puppetlabs/registry',       git: 'https://github.com/puppetlabs/puppetlabs-registry',      tag: '1.1.3'
 mod 'puppetlabs/wsus_client',    git: 'https://github.com/puppetlabs/puppetlabs-wsus_client',   tag: '1.0.2'
@@ -78,12 +80,16 @@ mod 'puppet/windows_eventlog',   git: 'https://github.com/voxpupuli/puppet-windo
 
 # Advanced Windows host management
 mod 'chocolatey/chocolatey_server', git: 'https://github.com/chocolatey/puppet-chocolatey_server',  tag: '0.0.4'
-# Not opensource
-#mod 'puppetlabs/sqlserver',         git: 'https://github.com/puppetlabs/puppetlabs-sqlserver',      tag: '1.1.2'
+mod 'puppetlabs/sqlserver',         git: 'https://github.com/puppetlabs/puppetlabs-sqlserver',      tag: 'v2.6.2'
 mod 'puppet/iis',                   git: 'https://github.com/voxpupuli/puppet-iis',                 tag: 'v2.0.2'
 mod 'puppet/graphite_powershell',   git: 'https://github.com/voxpupuli/puppet-graphite_powershell', tag: 'v1.0.1'
 
 
 # And while we're at it, lets do this all in the cloud
-mod 'puppetlabs/aws', git: 'https://github.com/puppetlabs/puppetlabs-aws', tag: '1.4.0'
-mod 'puppetlabs-dsc', '1.6.0'
+mod 'puppetlabs/aws',               git: 'https://github.com/puppetlabs/puppetlabs-aws', tag: '2.1.0'
+# One chonky boi. Twice as big as puppetlabs/dsc.
+mod 'puppetlabs/azure_arm',         git: 'https://github.com/puppetlabs/puppetlabs-azure_arm', tag: '0.2.2'
+mod 'puppetlabs/kubernetes',        git: 'https://github.com/puppetlabs/puppetlabs-kubernetes', tag: 'v5.1.0'
+mod 'puppetlabs/vsphere',           git: 'https://github.com/puppetlabs/puppetlabs-vsphere', tag: 'v1.5.0'
+mod 'google/gauth',                 '0.3.0'
+mod 'google/gcompute',              '0.3.0'
