@@ -167,3 +167,9 @@ mod 'swisscom/scaleio', '3.0.1'
 mod 'yuav/autofs', '1.2.2'
 mod 'yuav/monitoring', '0.3.4'
 mod 'yuav/monitoring_facts', '0.2.7'
+
+
+# Who wants 2248 custom resource type definitions?!?
+# That's right, `puppet generate types`! GET EXCITED.
+mod 'enterprisemodules/wls_config', '3.6.1'
+mod 'enterprisemodules/easy_type', '2.15.1'
