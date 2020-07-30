@@ -94,6 +94,7 @@ mod 'puppet/graphite_powershell',   git: 'https://github.com/voxpupuli/puppet-gr
 
 # And while we're at it, lets do this all in the cloud
 mod 'puppetlabs/aws',               git: 'https://github.com/puppetlabs/puppetlabs-aws', tag: '2.1.0'
+mod 'puppetlabs/amazon_aws',        git: 'https://github.com/puppetlabs/puppetlabs-amazon_aws', tag: '0.3.0'
 # One chonky boi. Twice as big as puppetlabs/dsc.
 mod 'puppetlabs/azure_arm',         git: 'https://github.com/puppetlabs/puppetlabs-azure_arm', tag: '0.2.2'
 mod 'puppetlabs/kubernetes',        git: 'https://github.com/puppetlabs/puppetlabs-kubernetes', tag: 'v5.1.0'
