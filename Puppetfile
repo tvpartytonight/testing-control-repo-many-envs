@@ -80,7 +80,6 @@ mod 'puppetlabs/wsus_client',    git: 'https://github.com/puppetlabs/puppetlabs-
 mod 'badgerious/windows_env',    git: 'https://github.com/badgerious/puppet-windows-env',       tag: 'v2.2.2'
 mod 'puppet/windows_firewall',   git: 'https://github.com/voxpupuli/puppet-windows_firewall',   tag: 'v1.0.3'
 mod 'puppet/windows_autoupdate', git: 'https://github.com/voxpupuli/puppet-windows_autoupdate', tag: 'v1.1.0'
-mod 'puppet/dotnet',             git: 'https://github.com/voxpupuli/puppet-dotnet',             tag: 'v1.0.2'
 mod 'puppet/windowsfeature',     git: 'https://github.com/voxpupuli/puppet-windowsfeature',     tag: 'v1.1.0'
 mod 'puppet/windows_eventlog',   git: 'https://github.com/voxpupuli/puppet-windows_eventlog',   tag: 'v1.1.1'
 
@@ -154,3 +153,17 @@ mod 'python', :git => 'https://github.com/voxpupuli/puppet-python', :ref => 'v4.
 mod 'dns', :git => 'https://github.com/theforeman/puppet-dns', :ref => '8.0.0'
 mod 'corosync', :git => 'https://github.com/voxpupuli/puppet-corosync', :ref => 'v5.0.0'
 mod 'ssh_keygen', :git => 'https://github.com/voxpupuli/puppet-ssh_keygen', :ref => 'v2.0.1'
+
+
+# Large file counts. These modules were packaged with extranoeous directories
+# like bundle/ and vendor/ that contain thousends of files.
+mod 'dalen/dnsquery', '3.0.0'
+mod 'ontotext/graphdb', '0.1.0'
+mod 'optiz0r/sabayon', '0.0.2'
+mod 'poxvupuli/inert', '0.1.0'
+mod 'puppet/dotnet', '1.0.2'
+mod 'puppet/rundeck', '2.1.0'
+mod 'swisscom/scaleio', '3.0.1'
+mod 'yuav/autofs', '1.2.2'
+mod 'yuav/monitoring', '0.3.4'
+mod 'yuav/monitoring_facts', '0.2.7'
