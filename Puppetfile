@@ -1,5 +1,6 @@
 forge 'https://forge.puppet.com'
 
 mod 'puppetlabs-apt',
-    version: '7.4.2',
+    git: "https://github.com/puppetlabs/puppetlabs-apt.git",
+    default_branch: 'main',
     deploy_spec: true
