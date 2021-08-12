@@ -7,4 +7,5 @@ mod 'puppetlabs-apt',
 mod 'puppetlabs-concat',
     git: "https://github.com/puppetlabs/puppetlabs-concat",
     branch: "main",
-    install_path: "some/random/relative/path"
+    exclude_spec: false
+    
