@@ -2,7 +2,7 @@ forge 'https://forge.puppet.com'
 
 mod 'puppetlabs-apt',
     git: "https://github.com/tvpartytonight/puppetlabs-apt.git",
-    branch: 'specdiraliased'
+    branch: 'main'
 
 mod 'puppetlabs-concat',
     git: "https://github.com/puppetlabs/puppetlabs-concat",
