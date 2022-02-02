@@ -6,6 +6,5 @@ mod 'puppetlabs-apt',
 
 mod 'puppetlabs-concat',
     git: "https://github.com/puppetlabs/puppetlabs-concat",
-    branch: "main",
-    exclude_spec: false
+    branch: "main"
     
