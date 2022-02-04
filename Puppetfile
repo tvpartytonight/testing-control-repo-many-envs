@@ -8,3 +8,7 @@ mod 'puppetlabs-concat',
     git: "https://github.com/puppetlabs/puppetlabs-concat",
     branch: "main"
     
+mod 'puppetlabs-ntp',
+    git: "https://github.com/puppetlabs/puppetlabs-ntp",
+    branch: "main",
+    exclude_spec: false
