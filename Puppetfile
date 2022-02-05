@@ -11,4 +11,4 @@ mod 'puppetlabs-concat',
 mod 'puppetlabs-ntp',
     git: "https://github.com/puppetlabs/puppetlabs-ntp",
     branch: "main",
-    exclude_spec: false
+    exclude_spec: true
