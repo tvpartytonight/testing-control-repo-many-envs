@@ -8,3 +8,5 @@ mod 'puppetlabs-concat',
     git: "https://github.com/puppetlabs/puppetlabs-concat",
     branch: "main"
     
+mod 'puppetlabs-docker',
+    git: "https://github.com/puppetlabs/puppetlabs-docker"
