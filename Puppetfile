@@ -2,7 +2,7 @@ forge 'https://forge.puppet.com'
 
 mod 'puppetlabs-apt',
     git: "https://github.com/tvpartytonight/puppetlabs-apt.git",
-    branch: 'main'
+    tag: "v8.3.0"
 
 mod 'puppetlabs-concat',
     git: "https://github.com/puppetlabs/puppetlabs-concat",
